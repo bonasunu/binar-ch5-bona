@@ -1,0 +1,8 @@
+{
+  "name": "binar-ch5-bona",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:bonasunu/binar-ch5-bona.git",
+  "author": "bonasunu <bonaventurasunu@gmail.com>",
+  "license": "MIT"
+}
