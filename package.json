@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:bonasunu/binar-ch5-bona.git",
   "author": "bonasunu <bonaventurasunu@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
