@@ -25,10 +25,7 @@ const usersSorting = (arr) => {
 
 // Users route
 route.get('/users', (req, res) => {
-  axios({
-    method: 'GET',
-    url: url,
-  }).then((response) => {
+  axios.get(url).then((response) => {
     let usersJson = usersSorting(response.data)
     res.json(usersJson)
   })
