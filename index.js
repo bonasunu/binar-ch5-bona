@@ -8,7 +8,7 @@ const PORT = 5000
 app.use(express.json())
 app.use(express.static(path.join(__dirname, 'public/static')))
 app.use('/', routes)
-app.use(middleware)
+app.use(middleware.errorHandler)
 
 app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}`)
