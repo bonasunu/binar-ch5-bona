@@ -24,6 +24,6 @@ Postman collection link for users route
 https://www.getpostman.com/collections/abd6e278960e7f7dc6ca
 
 ## Project Sturcture
-/utils - This directory contains middleware to handler error
-/public/static - This is location for Chapter 3 and chapter 4 directories
+/utils - This directory contains middleware to handler error <br>
+/public/static - This is location for Chapter 3 and chapter 4 directories <br>
 /controllers - The app handles all routes via this directory
